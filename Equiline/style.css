@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins&display=swap');
+
+*{
+    text-shadow: -2px 1px 8px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+    }
+
+@media (max-width: 768px) {
+        .spedizione
+            {
+                
+                width: auto;
+                left: 50%;
+                transform: translateX(-50%);
+                text-align: center;
+                font-size: smaller;
+            }
+        }
+       
+.spedizione{
+    z-index: 1;
+    background-color: white;
+}        
+
+.sezione-uno{
+    z-index: 2;
+}        
+
+.sezione-due{
+    z-index: 1;
+}
+
+.sezione-mhave{
+    position: absolute;
+    z-index: 1;
+}
+
+#carouselExampleControls{
+    position: absolute;
+    object-fit:cover;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    #carouselExampleControls
+        {
+            top: auto;
+        }
+    }
+
+b:hover{
+    text-decoration: underline;
+}
+
+.centra{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.btnn{  
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 24px 36px;
+    border: 1px solid rgb(128,0,0);
+    cursor: pointer;
+}
+
+.font{
+    font-size: 300%;
+    font-weight: bolder;
+    text-shadow: -2px 1px 8px rgba(0, 0, 0, 0.15)
+}
+
+@media (max-width: 768px) {
+    .font
+        {
+            font-size: 150%;
+        }
+    
+    .btnn
+        {
+            padding: 10px 20px;
+        }
+    }
+
+    img{
+        filter: brightness(50%);
+    }
